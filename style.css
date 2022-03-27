@@ -34,6 +34,13 @@ h3 {
     color: white;
     margin: 10px 20px;
 }
+.border {
+    border-bottom: 4px solid rgb(124, 41, 16);
+    padding: 40px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .metre {
     color: #3a393a ;
     font-size: 20px;
@@ -56,6 +63,7 @@ h3 {
     justify-content: flex-start;
     align-items: center;
     flex-direction: row-reverse;
+    margin-top: 40px;
 }
 .informations {
     width: 500px;
@@ -97,6 +105,12 @@ h3 {
     color: white;
     letter-spacing: 3px;
 }
+.menu button:hover {
+    cursor: pointer;
+    background-color: rgb(124, 41, 16) ;
+    transform: scale(1.1);
+    transition: 300ms;
+}
 .menu ul {
     display: flex;
     list-style: none;
@@ -125,30 +139,30 @@ li button:hover{
 .group {
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 30px;
+    padding: 40px;
 
 }
 
 .infos {
     background-color: rgb(153, 177, 152);
     width: 300px;
-    margin-top: 40px;
-    margin-left: 20px;
     border: solid 5px rgb(124, 41, 16);
     border-radius: 20px;
 }
 .formulaire {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     text-transform: uppercase;
     font-size: 18px;
     margin-top: 10px;
     text-shadow: 0 0 5px black;
-    margin-left: 100px;
     letter-spacing: 3px;
-
 }
-
+.formulaire p {
+    padding: 10px;
+    margin-left: 30px;
+}
 .carte{
     width: 1300px;
     height: 800px;
@@ -157,12 +171,9 @@ li button:hover{
     background-position: center center;
     background-size: cover;
     position: relative;
-    margin-right: 20px;
-    margin-left: auto;
-    margin-top: 40px;
     border: solid 5px rgb(124, 41, 16);
     border-radius: 20px;
-
+    margin-left: 50px;
 }
 .icone-zoom {
     width: 25px;
@@ -186,10 +197,10 @@ li button:hover{
     background-color: white;
     border: solid 1px rgb(184, 174, 174);
     border-radius: 10px;
-    transition: 200ms;
 }
 .icone:hover .text {
     display: block;
+    transition: 200ms;
 }
 
 
